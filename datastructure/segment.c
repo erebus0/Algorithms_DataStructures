@@ -43,9 +43,9 @@ int sum(int l, int r)
 
 void main()
 {
-	int a[] = {1, 7, 3, 0, 5, 8, 3, 2, 6, 2, 1, 1, 4, 5};
-	init(a, 0, 13);
-	printf("%d\n",sum(1,14));
-	update(4, 10);
-	printf("%d\n",sum(1,14));
+	int a[] = {2, 1, 1};
+	init(a, 0, 2);
+	printf("%d\n",sum(1,2));
+	update(2, 9);
+	printf("%d\n",sum(1,2));
 }

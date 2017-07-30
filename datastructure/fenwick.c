@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define NMAX 1000000
+#define NMAX 1000001
 
 int BItree[NMAX] = {0};
 int SIZE;
