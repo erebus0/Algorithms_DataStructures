@@ -19,17 +19,17 @@ void dfs_order(vector < vector< int > > &graph, vector < int > &visited, vector 
 
 int main()
 {
-	vector < vector < int > > graph{ {1, 2}, {3, 4}, {}, {}, {} };
-	vector < int > visited(5);
-	vector < int > position(5);
-	vector < int > no_of_children(5);
+	vector < vector < int > > graph{ {1, 2}, {3, 4}, {5}, {}, {}, {} };
+	vector < int > visited(6);
+	vector < int > position(6);
+	vector < int > no_of_children(6, 0);
 	vector < int > preorder(0);
 	dfs_order(graph, visited, preorder, position, no_of_children, 0);
-	for(int i = 0; i < 5; i++) printf("%d ", preorder[i]);
+	for(int i = 0; i < 6; i++) printf("%d ", preorder[i]);
 	printf("\n");
-	for(int i = 0; i < 5; i++) printf("%d ", position[i]);
+	for(int i = 0; i < 6; i++) printf("%d ", position[i]);
 	printf("\n");
-	for(int i = 0; i < 5; i++) printf("%d ", no_of_children[i]);
+	for(int i = 0; i < 6; i++) printf("%d ", no_of_children[i]);
 	printf("\n");
 	return 0;
 }
