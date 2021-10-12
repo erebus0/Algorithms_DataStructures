@@ -1,6 +1,8 @@
+package dp;
+
 import java.util.*;
 
-class Main {
+public class DPCoinProblem {
 
   private static Map<Integer, Integer> solutions = new HashMap<>();
 
