@@ -1,11 +1,11 @@
 import java.util.*;
 
-class Graph
+class GraphExample
 {
 	int v;
 	LinkedList<Integer> adj[];
 
-	Graph(int v)
+	GraphExample(int v)
 	{
 		this.v=v;
 		adj=new LinkedList[v];

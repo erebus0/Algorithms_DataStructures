@@ -1,12 +1,12 @@
 import java.util.*;
 
-class Queue{
+class QueueExample{
 
  int front;
  int rear;
  int[] arr;
  
- Queue()
+ QueueExample()
  {
    front=rear=-1;
    arr=new int[10];
@@ -50,7 +50,7 @@ public class QueueDemo{
 
 	public static void main(String[] args)
 	{
-	  Queue ob=new Queue();
+	  QueueExample ob=new Queue();
 	  ob.enqueue(1);
 	  ob.enqueue(2);
 	  ob.enqueue(3);

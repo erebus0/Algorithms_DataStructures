@@ -1,9 +1,9 @@
-class TLNode
+class TLNodeExample
 {
  int data;
- TLNode left,right;
+ TLNodeExample left,right;
  
- TLNode(int d)
+ TLNodeExample(int d)
  {
    data=d;
   }
@@ -48,16 +48,16 @@ public class BinaryTree
      
     public static void main(String[] args)
 	{
-		TLNode root=new TLNode(1);
+		TLNodeExample root=new TLNodeExample(1);
 		
-		root.left=new TLNode(2);
-		root.right=new TLNode(3);
+		root.left=new TLNodeExample(2);
+		root.right=new TLNodeExample(3);
 		
-		root.left.left=new TLNode(4);
-		root.left.right=new TLNode(5);
+		root.left.left=new TLNodeExample(4);
+		root.left.right=new TLNodeExample(5);
 		
-		root.right.left=new TLNode(6);
-		root.right.right=new TLNode(7);
+		root.right.left=new TLNodeExample(6);
+		root.right.right=new TLNodeExample(7);
 		preorder(root);
 		System.out.println();
 		

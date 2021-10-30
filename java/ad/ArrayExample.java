@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Array {
+class ArrayExample {
 	public static void main (String[] args) {
 	    int[] priceOfPen= new int[5];
 	    Scanner in=new Scanner(System.in);

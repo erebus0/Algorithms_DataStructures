@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Stack
+class StackExample
 {
    int[] a;
    int top;
